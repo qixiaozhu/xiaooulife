@@ -1,0 +1,294 @@
+body {
+	font-family: Microsoft Yahei, SimSun, sans-serif;
+	color: #E8E8E8;  /*默认超浅灰色*/
+}
+
+
+.top-tag {
+	height: 22px;
+	background-color: #E8E8E8; /*超浅灰色*/
+	border-bottom: 1px solid #FFF;
+}
+
+.head-tag {
+	border-top: 3px solid #E8E8E8; /*超浅灰色*/
+	/*垂直居中*/
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari、Opera 以及 Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
+
+.head-img {
+  width: 15%;
+}
+
+.head-name {
+    font-size: 3.0vw;
+	/*font-family: Microsoft Yahei, SimSun, sans-serif;*/
+	padding: 0;
+}
+#span-xo {
+	color: #1E90FF; /*标题小欧二字 中亮蓝*/
+}
+.top-bar {
+	padding: 0;
+}
+.top-bar-li {
+	list-style: none;
+	display: inline-block;
+
+    font-size: 2vw;
+	text-align: center;
+	
+}
+.top-bar-style {
+	color: #666;  /*菜单栏文字灰色*/
+	/*font-family: Microsoft Yahei, SimSun, sans-serif;*/
+	text-decoration: none;
+}
+.top-bar-li:hover {
+	background-color: #1E90FF;/*中亮蓝*/
+
+}
+.active-li {
+	background-color: #1E90FF; /*中亮蓝*/
+}
+.active-a {
+	color: #FFF;
+}
+.active-a:hover {
+	color: #FFF;
+}
+.active-a:focus {
+	color: #FFF;
+}
+.top-bar-style:hover {
+	text-decoration: none;
+}
+.top-bar-style:link {
+	text-decoration: none;
+}
+
+
+
+.first-a {
+	padding: 0;
+	display: none;
+}
+
+.first-img-a {
+	width: 100%;
+}
+.first-img-b {
+	width: 100%;
+}
+.first-slide {
+	display: inline;
+}
+.sec-first {
+	
+}
+
+.left {
+	position: absolute;
+	z-index: 1;
+	margin-top: 20%;
+}
+.right {
+	position: absolute;
+	z-index: 1;
+	margin-top: 20%;
+}
+.left-img {
+	float: left;
+	width: 15%;
+}
+.right-img {
+	float: right;
+	width: 15%;
+}
+
+.second-a {
+	font-size: 3vw;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #363636;  /*页面中标题 21灰*/
+}
+#second-b {
+	font-size: 2vw;
+	color: #666; /*灰色*/
+	font-weight: normal;
+}
+
+
+.sec-third {
+	padding: 0px;
+}
+.third-a {
+	width: 100%;
+}
+
+.fourth-a {
+	width: 100%;
+
+}
+
+.fourth-b {
+	width: 100%;
+	font-size: 1vw;
+
+}
+.fourth-b-h {
+	font-size: 2vw;
+}
+
+.fourth-b-pos {
+	text-align: center;
+	margin-top: 20%;
+}
+.fourth-d {
+	width: 100%;
+}
+.fourth-d-pos {
+	margin-top: 15%;
+}
+.fourth-e {
+	width: 100%;
+}
+.fourth-c-pos {
+	margin-bottom: 30%;
+	margin-top: -10%;
+}
+.fourth-c {
+	padding: 1vw;
+	color: #00CED1; /*了解更多button 绿蓝色*/
+	background-color: #FFF;
+	border-style: none;
+	border-radius: 2vw;
+	font-size: 2vw;
+}
+
+.sec-fourth {
+	background:url(../img/background.jpg) no-repeat center;
+	background-size: 100% auto;
+	margin-top: 70px;
+}
+
+.sec-fifth {
+	padding: 0px;
+}
+.fifth-a {
+	width: 100%;
+}
+
+.sec-sixth {
+	padding: 0px;
+}
+.sixth-a {
+	width: 100%;
+}
+
+
+.seventh-a {
+	margin-top: 30px;
+	font-size: 2vw;
+}
+.seventh-b {
+	margin-top: 15px;
+}
+.seventh-c {
+	font-size: 2vw;
+}
+
+.seventh-f {
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+.seventh-g {
+	font-size: 2vw;
+	color: #4F4F4F;
+	margin-left: 10px;
+}
+
+
+.seventh-o {
+	margin-top: 50px;
+	font-size: 3vw;
+	color: #FF7F24;
+	text-align: center;
+	letter-spacing:1vw;
+}
+.seventh-p {
+	margin-top: 10px;
+	font-size: 2vw;
+	color: #CFCFCF;
+}
+
+.sec-seventh {
+	background-image: url(../img/bg-phone.jpg);
+	background-size: 100% 100%;
+	color: #CFCFCF;  /*浅灰色81*/
+}
+
+
+footer {
+	color: #666; /*灰色*/
+	background-color: #232323; /*底部背景 深灰*/
+	border-top: 1px solid #FFF;
+}
+.foot-tab {
+	text-align: center;
+	font-size: 2vw;
+	margin-bottom: 30px;
+}
+.tab-a {
+	width: 100%;
+}
+.tab-b {
+	text-align: center;
+	font-weight: normal;
+	font-size: 2vw;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.tab-c td {
+	padding: 2px;
+}
+.tab-d {
+	font-size: 2vw;
+	color: #4F4F4F;  /*深灰 31*/
+	margin-bottom: 25px;
+	text-align: center;
+}
+.tab-e {
+	padding: 1vw;
+}
+.tab-f {
+	color: #666;
+	text-decoration: none;
+}
+.tab-f:hover {
+	text-decoration: none;
+}
+.tab-f:link {
+	text-decoration: none;
+}
+.tab-f:visited {
+	text-decoration: none;
+}
+.foot-name {
+	font-size: 36px;
+	text-align: center;
+}

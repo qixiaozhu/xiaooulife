@@ -1,0 +1,318 @@
+body {
+	font-family: Microsoft Yahei, SimSun, sans-serif;
+	color: #E8E8E8;  /*默认超浅灰色*/
+}
+
+
+.top-tag {
+	height: 22px;
+	background-color: #E8E8E8; /*超浅灰色*/
+	border-bottom: 1px solid #FFF;
+}
+.head-tag {
+	border-top: 3px solid #E8E8E8; /*超浅灰色*/
+}
+.head-img {
+padding-top: 8px;
+}
+.head-name {
+	font-size: 30px;
+	padding: 18px;
+	/*font-family: Microsoft Yahei, SimSun, sans-serif;*/
+}
+#span-xo {
+	color: #1E90FF; /*标题小欧二字 中亮蓝*/
+}
+.top-bar {
+	padding: 0;
+}
+.top-bar-li {
+	list-style: none;
+	display: inline-block;
+	margin-top: 20px;
+	width: 90px;
+	padding: 8px;
+	margin-right: 10px;
+	text-align: center;
+	
+	
+}
+.top-bar-style {
+	color: #666;  /*菜单栏文字灰色*/
+	/*font-family: Microsoft Yahei, SimSun, sans-serif;*/
+	font-size: 16px;
+	text-decoration: none;
+}
+.top-bar-li:hover {
+	background-color: #1E90FF;/*中亮蓝*/
+
+}
+.active-li {
+	background-color: #1E90FF; /*中亮蓝*/
+}
+.active-a {
+	color: #FFF;
+}
+.active-a:hover {
+	color: #FFF;
+}
+.active-a:focus {
+	color: #FFF;
+}
+.top-bar-style:hover {
+	text-decoration: none;
+}
+.top-bar-style:link {
+	text-decoration: none;
+}
+
+.first-a {
+	padding: 0;
+	display: none;
+}
+
+.first-img-a {
+	width: 100%;
+}
+
+.first-a {
+	padding: 0;
+	display: none;
+}
+.first-img-b {
+	width: 100%;
+}
+.first-slide {
+	display: inline;
+}
+.sec-first {
+	
+}
+
+.left {
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	margin-top: 20%;
+}
+.right {
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	margin-top: 20%;
+}
+.left-img {
+	float: left;
+}
+.right-img {
+	float: right;
+}
+
+.second-a {
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	color: #363636;  /*页面中标题 21灰*/
+}
+#second-b {
+	font-size: 14px;
+	color: #666; /*灰色*/
+	font-weight: normal;
+}
+
+
+.sec-third {
+	padding: 0px;
+}
+.third-a {
+	width: 100%;
+}
+
+.fourth-a {
+	padding-top: 50px;
+	width: 100%;
+}
+.fourth-d {
+	width: 120%;
+	padding-top: 200%;
+}
+.fourth-e {
+	width: 120%;
+	margin-bottom: 80%;
+}
+.fourth-b {
+	margin-top: -60%;
+	width: 80%;
+	margin-left: 7%;
+}
+
+.fourth-b-pos {
+	text-align: center;
+
+}
+
+.fourth-c-pos {
+	margin-top: -110%;
+}
+.fourth-c {
+	padding: 10px;
+	color: #00CED1; /*了解更多button 绿蓝色*/
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #FFF;
+	border-style: none;
+	border-radius: 20px;
+}
+
+.sec-fourth {
+	background:url(../img/background.jpg) no-repeat center;
+	background-size: 100% auto;
+	margin-top: 70px;
+}
+
+.sec-fifth {
+	padding: 0px;
+	margin-top: -70px;
+}
+.fifth-a {
+	width: 100%;
+}
+
+.sec-sixth {
+	padding: 0px;
+}
+.sixth-a {
+	width: 100%;
+}
+
+
+.seventh-a {
+	margin-top: 70px;
+	font-size: 16px;
+}
+.seventh-b {
+	margin-top: 30px;
+}
+.seventh-c {
+	font-size: 16px;
+}
+.seventh-e {
+	font-size: 16px;
+	font-weight: normal;
+}
+.seventh-f {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+.seventh-g {
+	font-size: 14px;
+	color: #4F4F4F;
+	margin-left: 10px;
+}
+
+.verify-code {
+	background-color: #E8E8E8;
+	margin-left: -110px;
+	width: 200%;
+	text-align: center;
+	letter-spacing:8px;
+	
+	
+}
+
+.seventh-m {
+	height: 30px;
+	margin-top: 2px;
+}
+.seventh-n {
+	margin-left: -85px;
+	border: 0;
+	background-color: #1E90FF;
+	color: #E8E8E8;
+}
+.seventh-k {
+	margin-left: 50px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	width: 55%;
+	background-color: #1E90FF;
+	border: none;
+	color: #E8E8E8;
+}
+.seventh-l {
+	margin-top: 20px;
+	margin-bottom: 150px;
+}
+
+.seventh-o {
+	margin-top: 100px;
+	font-size: 30px;
+	color: #FF7F24;
+	text-align: center;
+	letter-spacing:4px;
+}
+.seventh-p {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #CFCFCF;
+}
+
+.sec-seventh {
+	background-image: url(../img/bg-phone.jpg);
+	background-size: 100% 100%;
+	color: #CFCFCF;  /*浅灰色81*/
+}
+
+
+footer {
+	color: #666; /*灰色*/
+	background-color: #232323; /*底部背景 深灰*/
+	border-top: 1px solid #FFF;
+}
+.foot-tab {
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+.tab-a {
+	width: 100%;
+	margin-left: -40px;
+}
+.tab-b {
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.tab-c td {
+	padding: 2px;
+}
+.tab-d {
+	margin-left: -50px;
+	font-size: 12px;
+	color: #4F4F4F;  /*深灰 31*/
+	margin-bottom: 25px;
+}
+.tab-e {
+	padding: 3px;
+}
+.tab-f {
+	color: #666;
+	text-decoration: none;
+}
+.tab-f:hover {
+	text-decoration: none;
+}
+.tab-f:link {
+	text-decoration: none;
+}
+.tab-f:visited {
+	text-decoration: none;
+}
+.foot-name {
+	font-size: 36px;
+	margin-top: 25%;
+	text-align: center;
+}
